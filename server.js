@@ -7,7 +7,8 @@ app.use(cors());
 app.use(express.json());
 
 
-mongoose.connect('mongodb://localhost:27017/notesDB', ({ useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify:false }));
+mongoose.connect('mongodb+srv://khushi:khushi@cluster0.vntep.mongodb.net/notesDB?retryWrites=true&w=majority', ({ useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify:false }));
+//mongoose.connect('mongodb://localhost:27017/notesDB', ({ useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify:false }));
 var db = mongoose.connection;
 db.on('error', console.log.bind(console, "connection error"));
 console.log("connection succeeded");
