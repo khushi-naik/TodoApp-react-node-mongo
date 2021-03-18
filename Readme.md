@@ -11,4 +11,6 @@ npm start
 
 ```
 
-[screenshot1](./screenshots/one.png)
+![screenshot1](./screenshots/one.png)
+![screenshot2](./screenshots/two.png)
+![screenshot3](./screenshots/three.png)
