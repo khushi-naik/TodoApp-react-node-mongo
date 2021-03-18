@@ -10,6 +10,8 @@ The entire code can be found on - [Google-Drive Link](https://drive.google.com/f
 2. Nodejs gives the backend and uses express and mongoose.
 3. MongoDB stores the database of the application.
 
+Link for demo - [Demo Link](https://mynotesk.herokuapp.com/)
+
 After cloning the repo, run the following commands in a terminal for backend:
 ```
 npm install
